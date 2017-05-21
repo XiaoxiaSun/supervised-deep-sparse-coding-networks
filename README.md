@@ -1,19 +1,21 @@
-SparseNet: sparse coding network for MATLAB.
-The code is based on MatConvNet toolbox. See more in README.md.
-The code is anonymously shared for the verification of the nips submission. Please do not distribute this code.
+Supervised Sparse Coding Networks
+=============
+
+This code is used for experiments of Supervised Deep Sparse Coding Networks https://arxiv.org/abs/1701.08349 by Xiaoxia Sun, Nasser M. Nasrabadi and Trac D. Tran. 
 
 
-This code reproduces the nips submission of 'Deep Sparse Coding Networks'
-The code is verified on a system of Linux Ubuntu 14.01, CUDA 8.0, with 3 Nvidia Titan X (Pascal) GPUs or 4 Nvidia Tesla P40 GPUs.
-With 3 Titan X (Pascal) GPUs, training speed is about 80~90 images/sec on CIFAR-10 using SCN-4 settings in the paper.
+
+The code is verified on a system of Linux Ubuntu 14.01, CUDA 8.0, with 3 Nvidia Titan X (Pascal) GPUs or 4 Nvidia Tesla P40 GPUs.\\
+With 3 Titan X (Pascal) GPUs, training speed is about 80~90 images/sec on CIFAR-10 using SCN-4 settings in the paper.\\
 With 4 Tesla P40 GPUs, training speed is about 100~120 images/sec on CIFAR-10 using SCN-4 settings in the paper.
 
 
-### The sparse coding layer only has GPU version, GPU is required to run the code ###
+The sparse coding layer only has GPU version, GPU is required to run the code
 
-1. To install the MatConvNet toolbox and the SparseNet:
-run the file: 
->> compileSparseNet
+0. **To install the MatConvNet toolbox and the SparseNet**
+```matlab
+compileSparseNet
+```dda
 
 2. ### Before run the experiments, add path: ###
 >> addpath_sparse_coding_layer
