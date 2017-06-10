@@ -3,6 +3,15 @@ Supervised Sparse Coding Networks
 
 This code is used for experiments of Supervised Deep Sparse Coding Networks https://arxiv.org/abs/1701.08349 by Xiaoxia Sun, Nasser M. Nasrabadi and Trac D. Tran. 
 
+```
+@article{xxsun2017deep,
+  author    = {Xiaoxia Sun and Nasser M. Nasrabadi and Trac D. Tran},
+  title     = {Supervised Multilayer Sparse Coding Networks for Image Classification},
+  journal   = {arXiv preprint arXiv:1701.08349},
+  year      = {2017},
+}
+```
+
 
 
 The code is verified on a system of Linux Ubuntu 14.01, CUDA 8.0, with 3 Nvidia Titan X (Pascal) GPUs or 4 Nvidia Tesla P40 GPUs.
